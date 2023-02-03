@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
 import { QuestionProvider } from './Context';
-import useFetch from './hooks/useFetch';
-import useIncrement from './hooks/useIncrement';
+import useFetch from './CustomHooks/useFetch';
+import useIncrement from './CustomHooks/useIncrement';
 import GameOver from './Pages/ResultPage/GameOver';
 import Home from './Pages/HomePage/Home';
 import QuizPage from './Pages/QuizPage/QuizPage';

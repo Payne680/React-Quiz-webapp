@@ -1,5 +1,5 @@
-/* eslint-disable camelcase */
 /* eslint-disable react/no-danger */
+/* eslint-disable camelcase */
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { QuestionConsumer } from '../../Context';
@@ -32,7 +32,7 @@ function GameOver() {
                     <span
                       key={question}
                       dangerouslySetInnerHTML={{ __html: question }}
-                    />{' '}
+                    />
                     Answers :
                     <span
                       dangerouslySetInnerHTML={{ __html: correct_answer }}

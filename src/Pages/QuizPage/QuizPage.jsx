@@ -1,3 +1,4 @@
+/* eslint-disable react/no-danger */
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { QuestionConsumer } from '../../Context';
@@ -14,7 +15,6 @@ function QuizPage() {
               failed: ansTracker.failed,
             });
           } else {
-            console.log('wrong answer');
             setAnsTracker({
               passed: ansTracker.passed,
               failed: ansTracker.failed + 1,
